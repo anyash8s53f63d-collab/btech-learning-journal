@@ -1,0 +1,29 @@
+Azure Linux VM
+      │
+      ├── SSH
+      │
+      ├── Linux users
+      │
+      ├── Firewall
+      │
+      └── System/Auth logs
+             │
+             ▼
+       Security Monitoring
+
+For this
+  Azure VM
+   ↓
+Honeypot
+   ↓
+Logs
+   ↓
+Log Analytics
+   ↓
+Microsoft Sentinel
+   ↓
+KQL
+   ↓
+Detection
+   ↓
+Investigation
